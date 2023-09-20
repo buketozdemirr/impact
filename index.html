@@ -1,0 +1,1311 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="resp.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!---------------------header burada başlıyor---------------->
+    <header id="banner">
+      <!--------------header top------------------>
+      <div class="header-top">
+        <div class="container d-flex justify-content-between align-items-center h-100">
+          <div class="contact">
+            <i class="bi bi-envelope me-3">
+              <a href="">contact@example.com</a>
+            </i>
+            <i class="bi bi-phone">
+              <span>+1 5589 55488 55</span>
+            </i>
+          </div>
+          <div class="social d-none d-md-flex">
+             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a> 
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a> 
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <!---------------------header bottom---------------------------------->
+      <div class="header-bottom">
+        <nav class="navbar navbar-expand-lg h-100">
+          <div class="container-fluid container-xl d-flex justify-content-between align-items-center">
+            <a class="header-logo navbar-brand" href="#">Impact<span>.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services">services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Drop Down
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Drop Down1</a></li>
+                    <li><a class="dropdown-item" href="#">Deep Drop Down</a></li>
+                    <li><a class="dropdown-item" href="#">Drop Down2</a></li>
+                    <li><a class="dropdown-item" href="#">Drop Down3</a></li>
+                    <li><a class="dropdown-item" href="#">Drop Down4</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="offcanvas offcanvas-end pt-2" data-bs-backdrop="static" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex gap-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Drop Down
+                </a>
+                <div class="drop-offcanvas">
+                  <ul class="dropdown-menu container-fluid">
+                    <li><a class="dropdown-item" href="#">Drop Down1</a></li>
+                    <li><a class="dropdown-item" href="#">Deep Drop Down</a></li>
+                    <li><a class="dropdown-item" href="#">Drop Down2</a></li>
+                    <li><a class="dropdown-item" href="#">Drop Down3</a></li>
+                    <li><a class="dropdown-item" href="#">Drop Down4</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!----------welcome to impact bölümü burada başlıyor------->
+    <section class="hero">
+      <div class="container">
+        <div class="row gy-5 flex-column-reverse flex-lg-row">
+          <div class="col-12 col-lg-6">
+            <div class="text-center text-lg-start">
+              <h2>Welcome to <span>Impact</span></h2>
+              <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
+              <div class="d-flex ">
+                <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+                <a href="#" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div>
+              <img class="mx-auto d-block img-fluid" src="img/hero-img.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="icon-boxes">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-12 col-md-6 col-xl-3">
+              <div class="card text-center">
+                <i class="bi bi-easel"></i>
+                <div class="card-body">
+                  <p class="card-text">Lorem Ipsum</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+              <div class="card text-center">
+                <i class="bi bi-gem"></i>
+                <div class="card-body">
+                  <p class="card-text">Sed ut perspiciatis</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+              <div class="card text-center">
+                <i class="bi bi-geo-alt"></i>
+                <div class="card-body">
+                  <p class="card-text">Magni Dolores</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+              <div class="card text-center">
+                <i class="bi bi-command"></i>
+                <div class="card-body">
+                  <p class="card-text">Nemo Enim</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------about us burada başlıyor-------------->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Us</h2>
+          <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
+        </div>
+        <div class="row gy-4">
+          <div class="col-12 col-lg-6">
+            <div class="about-content-first">
+              <h3>Voluptatem dignissimos provident quasi corporis</h3>
+              <img class="img-fluid" src="img/about.jpg" alt="">
+              <p>Ut fugiat ut sunt quia veniam. Voluptate perferendis perspiciatis quod nisi et. Placeat debitis quia recusandae odit et consequatur voluptatem. Dignissimos pariatur consectetur fugiat voluptas ea.</p>
+              <p>Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nihil vitae quo officia vel. Blanditiis eligendi possimus et in cum. Quidem eos ut sint rem veniam qui. Ut ut repellendus nobis tempore doloribus debitis explicabo similique sit. Accusantium sed ut omnis beatae neque deleniti repellendus.</p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="about-content-second ps-0 ps-lg-5">
+              <p class="fst-italic"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <ul>
+                <li class="d-flex"><i class="bi bi-check-circle-fill me-2"></i><span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+                <li class="d-flex"><i class="bi bi-check-circle-fill me-2"></i><span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+                <li class="d-flex"><i class="bi bi-check-circle-fill me-2"></i><span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+              </ul>
+              <p> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+              <img class="img-fluid" src="img/about-2.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------------clients burada başlıyor--------------------------->
+    <section class="clients">
+      <div class="container">
+        <div class="row gx-5">
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <div class="clients-card px-4">
+              <img src="img/client-7.png" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <div class="clients-card px-4">
+              <img src="img/client-4.png" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-none d-sm-block">
+            <div class="clients-card px-4">
+              <img src="img/client-8.png" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-none d-md-block">
+            <div class="clients-card px-4">
+              <img src="img/client-5.png" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-none d-lg-block">
+            <div class="clients-card px-4">
+              <img src="img/client-2.png" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-none d-lg-block">
+            <div class="clients-card px-4">
+              <img src="img/client-6.png" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-----------------istatistik bölümü burada başlıyor----------------------->
+    <section class="stats">
+      <div class="container">
+        <div class="row gy-4 align-items-center">
+          <div class="col-12 col-lg-6">
+            <div class="stats-image">
+              <img class="img-fluid" src="img/stats-img.svg" alt="">
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="stats-item d-flex gap-3 align-items-baseline">
+              <span>232</span>
+              <p><strong>Happy Clients</strong> consequuntur quae diredo para mesta</p>
+            </div>
+            <div class="stats-item d-flex gap-3 align-items-baseline">
+              <span>521</span>
+              <p><strong>Projects</strong> adipisci atque cum quia aut </p>
+            </div>
+            <div class="stats-item d-flex gap-3 align-items-baseline">
+              <span>453</span>
+              <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-----------call to action bölümü burada başlıyor----------------->
+    <section class="action">
+      <div class="container">
+        <div class="background-action text-center">
+          <div class="action-btn">
+            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="action-play-btn"></a>
+          </div>
+          <h3>Call To Action</h3>
+          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="call-action-btn">
+            <button type="button" class="btn btn-outline-light">Call To Action</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------------services bölümü burada başlıyor----------------->
+    <section class="services sections-bg" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="section-header">
+            <h2>Our Services</h2>
+            <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="services-card col-lg-4 col-md-6">
+            <div class="card  border-0 position-relative h-100">
+              <div class="card-body">
+                <div class="services-icon">
+                  <i class="bi bi-activity"></i>
+                </div>
+                <h3 class="card-title">Nesciunt Mete</h3>
+                <p class="card-text">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="services-card col-lg-4 col-md-6">
+            <div class="card  border-0 position-relative h-100">
+              <div class="card-body">
+                <div class="services-icon">
+                  <i class="bi bi-broadcast"></i>
+                </div>
+                <h3 class="card-title">Eosle Commodi</h3>
+                <p class="card-text">Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+                <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="services-card col-lg-4 col-md-6">
+            <div class="card  border-0 position-relative h-100">
+              <div class="card-body">
+                <div class="services-icon">
+                  <i class="bi bi-easel"></i>
+                </div>
+                <h3 class="card-title">Ledo Markt</h3>
+                <p class="card-text">Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+                <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="services-card col-lg-4 col-md-6">
+            <div class="card  border-0 position-relative h-100">
+              <div class="card-body">
+                <div class="services-icon">
+                  <i class="bi bi-bounding-box-circles"></i>
+                </div>
+                <h3 class="card-title">Asperiores Commodit</h3>
+                <p class="card-text">Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+                <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="services-card col-lg-4 col-md-6">
+            <div class="card  border-0 position-relative h-100">
+              <div class="card-body">
+                <div class="services-icon">
+                  <i class="bi bi-calendar4-week"></i>
+                </div>
+                <h3 class="card-title">Velit Doloremque</h3>
+                <p class="card-text">Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+                <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="services-card col-lg-4 col-md-6">
+            <div class="card  border-0 position-relative h-100">
+              <div class="card-body">
+                <div class="services-icon">
+                  <i class="bi bi-chat-square-text"></i>
+                </div>
+                <h3 class="card-title">Dolori Architecto</h3>
+                <p class="card-text">Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+                <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-----------------------testimonials bölümü burada başlıyor--------->
+    <section class="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="section-header">
+            <h2>Testimonials</h2>
+            <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos quam</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-xl-4">
+            <div class="testimonial-card">
+              <div class="card">
+                <div class="card-body">
+                  <div class="title-image d-flex gap-3">
+                    <img class="img-fluid" src="img/testimonials-2.jpg" alt="">
+                    <div class="testimonial-card-title">
+                      <h3>Sara Wilsson</h3>
+                      <h4>Designer</h4>
+                      <div class="stars"> 
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                    </div> 
+                  </div>
+                  <div class="card-bottom">
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-none d-xl-block">
+            <div class="testimonial-card">
+              <div class="card">
+                <div class="card-body">
+                  <div class="title-image d-flex gap-3">
+                    <img class="img-fluid" src="img/testimonials-1.jpg" alt="">
+                    <div class="testimonial-card-title">
+                      <h3>Saul Goodman</h3>
+                      <h4>Ceo & Founder</h4>
+                      <div class="stars"> 
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                    </div> 
+                  </div>
+                  <div class="card-bottom">
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper. 
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-none d-xl-block">
+            <div class="testimonial-card">
+              <div class="card">
+                <div class="card-body">
+                  <div class="title-image d-flex gap-3">
+                    <img class="img-fluid" src="img/testimonials-4.jpg" alt="">
+                    <div class="testimonial-card-title">
+                      <h3>Matt Brandon</h3>
+                      <h4>Freelancer</h4>
+                      <div class="stars"> 
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                    </div> 
+                  </div>
+                  <div class="card-bottom">
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore. 
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------------------portfolio bölümü burada başlıyor------------->
+    <section class="portfolio sections-bg" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="section-header">
+            <h2>Portfolio</h2>
+            <p>Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum nostrum enim velit qui ut et autem uia reprehenderit sunt deleniti</p>
+          </div>
+        </div>
+        <div class="portfolio-tabs">
+          <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-app" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">App</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-product" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Product</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-branding" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Brandings</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-books" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Books</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+              <div class="row g-3">
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="portfolio-card">
+                    <div class="card border-0">
+                      <div class="portfolio-card-image">
+                        <img src="img/app-1.jpg" class="card-img-top img-container" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h4><a href="">App 1</a></h4>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="portfolio-card">
+                    <div class="card border-0">
+                      <div class="portfolio-card-image">
+                        <img src="img//product-1.jpg" class="card-img-top img-container" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h4><a href="">Product 1</a></h4>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="portfolio-card">
+                    <div class="card border-0">
+                      <div class="portfolio-card-image">
+                        <img src="img/branding-1.jpg" class="card-img-top img-container" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h4><a href="">Branding 1</a></h4>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="portfolio-card">
+                    <div class="card border-0">
+                      <div class="portfolio-card-image">
+                        <img src="img/books-1.jpg" class="card-img-top img-container" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h4><a href="">Books 1</a></h4>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="portfolio-card">
+                    <div class="card border-0">
+                      <div class="portfolio-card-image">
+                        <img src="img/app-2.jpg" class="card-img-top img-container" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h4><a href="">App 2</a></h4>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="portfolio-card">
+                    <div class="card border-0">
+                      <div class="portfolio-card-image">
+                        <img src="img/product-2.jpg" class="card-img-top img-container" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h4><a href="">Product 2</a></h4>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="portfolio-card">
+                    <div class="card border-0">
+                      <div class="portfolio-card-image">
+                        <img src="img/branding-2.jpg" class="card-img-top img-container" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h4><a href="">Branding 2</a></h4>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="portfolio-card">
+                    <div class="card border-0">
+                      <div class="portfolio-card-image">
+                        <img src="img/books-2.jpg" class="card-img-top img-container" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h4><a href="">Books 2</a></h4>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="portfolio-card">
+                    <div class="card border-0">
+                      <div class="portfolio-card-image">
+                        <img src="img/app-3.jpg" class="card-img-top img-container" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h4><a href="">App 3</a></h4>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="portfolio-card">
+                    <div class="card border-0">
+                      <div class="portfolio-card-image">
+                        <img src="img/product-3.jpg" class="card-img-top img-container" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h4><a href="">Product 3</a></h4>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="portfolio-card">
+                    <div class="card border-0">
+                      <div class="portfolio-card-image">
+                        <img src="img/branding-3.jpg" class="card-img-top img-container" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h4><a href="">Branding 3</a></h4>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="portfolio-card">
+                    <div class="card border-0">
+                      <div class="portfolio-card-image">
+                        <img src="img/books-3.jpg" class="card-img-top img-container" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h4><a href="">Books 3</a></h4>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-app" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+              <div class="container-fluid">
+                <div class="row g-3">
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="portfolio-card">
+                      <div class="card border-0">
+                        <div class="portfolio-card-image">
+                          <img src="img/app-1.jpg" class="card-img-top img-container" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h4><a href="">App 1</a></h4>
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="portfolio-card">
+                      <div class="card border-0">
+                        <div class="portfolio-card-image">
+                          <img src="img/app-2.jpg" class="card-img-top img-container" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h4><a href="">App 2</a></h4>
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="portfolio-card">
+                      <div class="card border-0">
+                        <div class="portfolio-card-image">
+                          <img src="img/app-3.jpg" class="card-img-top img-container" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h4><a href="">App 3</a></h4>
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-product" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+              <div class="container-fluid">
+                <div class="row g-3">
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="portfolio-card">
+                      <div class="card border-0">
+                        <div class="portfolio-card-image">
+                          <img src="img/product-1.jpg" class="card-img-top img-container" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h4><a href="">Product 1</a></h4>
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="portfolio-card">
+                      <div class="card border-0">
+                        <div class="portfolio-card-image">
+                          <img src="img/product-2.jpg" class="card-img-top img-container" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h4><a href="">Product 2</a></h4>
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="portfolio-card">
+                      <div class="card border-0">
+                        <div class="portfolio-card-image">
+                          <img src="img/product-3.jpg" class="card-img-top img-container" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h4><a href="">Product 3</a></h4>
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-branding" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+              <div class="container-fluid">
+                <div class="row g-3">
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="portfolio-card">
+                      <div class="card border-0">
+                        <div class="portfolio-card-image">
+                          <img src="img/branding-1.jpg" class="card-img-top img-container" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h4><a href="">Branding 1</a></h4>
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="portfolio-card">
+                      <div class="card border-0">
+                        <div class="portfolio-card-image">
+                          <img src="img/branding-2.jpg" class="card-img-top img-container" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h4><a href="">Branding 2</a></h4>
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="portfolio-card">
+                      <div class="card border-0">
+                        <div class="portfolio-card-image">
+                          <img src="img/branding-3.jpg" class="card-img-top img-container" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h4><a href="">Branding 3</a></h4>
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-books" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+              <div class="container-fluid">
+                <div class="row g-3">
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="portfolio-card">
+                      <div class="card border-0">
+                        <div class="portfolio-card-image">
+                          <img src="img/books-1.jpg" class="card-img-top img-container" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h4><a href="">Books 1</a></h4>
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="portfolio-card">
+                      <div class="card border-0">
+                        <div class="portfolio-card-image">
+                          <img src="img/books-2.jpg" class="card-img-top img-container" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h4><a href="">Books 2</a></h4>
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="portfolio-card">
+                      <div class="card border-0">
+                        <div class="portfolio-card-image">
+                          <img src="img/books-3.jpg" class="card-img-top img-container" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h4><a href="">Books 3</a></h4>
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------------------our team bölümü burada başlıyor---------------------->
+    <section class="team" id="team">
+      <div class="container">
+        <div class="row">
+          <div class="section-header">
+            <h2>Our Team</h2>
+            <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p>
+          </div>
+        </div>
+        <div class="row gy-4">
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <img src="img/team-1.jpg" class="card-img-top" alt="">
+              <div class="card-body text-center">
+                <h5 class="card-title">Walter White</h5>
+                <span>Web Development</span>
+                <div class="team-social d-flex align-items-center justify-content-around"> 
+                  <a class="d-flex align-items-center justify-content-center" href=""><i class="bi bi-twitter"></i></a> 
+                  <a class="d-flex align-items-center justify-content-center" href=""><i class="bi bi-facebook"></i></a> 
+                  <a class="d-flex align-items-center justify-content-center" href=""><i class="bi bi-instagram"></i></a> 
+                  <a class="d-flex align-items-center justify-content-center" href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <img src="img/team-2.jpg" class="card-img-top" alt="">
+              <div class="card-body text-center">
+                <h5 class="card-title">Sarah Jhinson</h5>
+                <span>Marketing</span>
+                <div class="team-social d-flex align-items-center justify-content-around"> 
+                  <a class="d-flex align-items-center justify-content-center" href=""><i class="bi bi-twitter"></i></a> 
+                  <a class="d-flex align-items-center justify-content-center" href=""><i class="bi bi-facebook"></i></a> 
+                  <a class="d-flex align-items-center justify-content-center" href=""><i class="bi bi-instagram"></i></a> 
+                  <a class="d-flex align-items-center justify-content-center" href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <img src="img/team-3.jpg" class="card-img-top" alt="">
+              <div class="card-body text-center">
+                <h5 class="card-title">William Anderson</h5>
+                <span>Content</span>
+                <div class="team-social d-flex align-items-center justify-content-around"> 
+                  <a class="d-flex align-items-center justify-content-center" href=""><i class="bi bi-twitter"></i></a> 
+                  <a class="d-flex align-items-center justify-content-center" href=""><i class="bi bi-facebook"></i></a> 
+                  <a class="d-flex align-items-center justify-content-center" href=""><i class="bi bi-instagram"></i></a> 
+                  <a class="d-flex align-items-center justify-content-center" href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <img src="img/team-4.jpg" class="card-img-top" alt="">
+              <div class="card-body text-center">
+                <h5 class="card-title">Amanda Jepson</h5>
+                <span>Accountant</span>
+                <div class="team-social d-flex align-items-center justify-content-around"> 
+                  <a class="d-flex align-items-center justify-content-center" href=""><i class="bi bi-twitter"></i></a> 
+                  <a class="d-flex align-items-center justify-content-center" href=""><i class="bi bi-facebook"></i></a> 
+                  <a class="d-flex align-items-center justify-content-center" href=""><i class="bi bi-instagram"></i></a> 
+                  <a class="d-flex align-items-center justify-content-center" href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------pricing bölümü burada başlıyor---------------->
+    <section class="pricing sections-bg">
+        <div class="row g-4">
+          <div class="section-header">
+            <h2>Pricing</h2>
+            <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row g-4 g-l-0">
+            <div class="col-lg-4">
+              <div class="card  small-card">
+                <div class="pricing-card-title">
+                  <h3>Free Plan</h3>
+                  <div class="icon"> 
+                    <i class="bi bi-box"></i>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h4>
+                    <sup>$</sup>0
+                    <span>/month</span>
+                  </h4>
+                </div>
+                <ul class="list-group list-group-flush boder-0">
+                  <li class="list-group-item border-0"><i class="bi bi-check"></i>Quam adipiscing vitae proin</li>
+                  <li class="list-group-item border-0"><i class="bi bi-check"></i>Nec feugiat nisl pretium</li>
+                  <li class="list-group-item border-0"><i class="bi bi-check"></i>Nulla at volutpat diam uteera</li>
+                  <li class="list-group-item border-0 through"><i class="bi bi-x"></i><span><s>Pharetra massa massa ultricies</s></span></li>
+                  <li class="list-group-item border-0 through"><i class="bi bi-x"></i><span><s>Massa ultricies mi quis hendrerit</s></span></li>
+                </ul>
+                <div class="card-body text-center">
+                  <button type="button" class="btn btn-outline-success">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card business">
+                <div class="pricing-card-title">
+                  <h3>Business Plan</h3>
+                  <div class="icon"> 
+                    <i class="bi bi-box"></i>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h4>
+                    <sup>$</sup>0
+                    <span>/month</span>
+                  </h4>
+                </div>
+                <ul class="list-group list-group-flush boder-0">
+                  <li class="list-group-item border-0"><i class="bi bi-check"></i>Quam adipiscing vitae proin</li>
+                  <li class="list-group-item border-0"><i class="bi bi-check"></i>Nec feugiat nisl pretium</li>
+                  <li class="list-group-item border-0"><i class="bi bi-check"></i>Nulla at volutpat diam uteera</li>
+                  <li class="list-group-item border-0"><i class="bi bi-check"></i>Pharetra massa massa ultricies</li>
+                  <li class="list-group-item border-0"><i class="bi bi-check"></i>Massa ultricies mi quis hendrerit</li>
+                </ul>
+                <div class="card-body text-center">
+                  <button type="button" class="btn btn-outline-success">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card  small-card">
+                <div class="pricing-card-title">
+                  <h3>Developer Plan</h3>
+                  <div class="icon"> 
+                    <i class="bi bi-box"></i>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h4>
+                    <sup>$</sup>0
+                    <span>/month</span>
+                  </h4>
+                </div>
+                <ul class="list-group list-group-flush boder-0">
+                  <li class="list-group-item border-0"><i class="bi bi-check"></i>Quam adipiscing vitae proin</li>
+                  <li class="list-group-item border-0"><i class="bi bi-check"></i>Nec feugiat nisl pretium</li>
+                  <li class="list-group-item border-0"><i class="bi bi-check"></i>Nulla at volutpat diam uteera</li>
+                  <li class="list-group-item border-0"><i class="bi bi-check"></i>Pharetra massa massa ultricies</li>
+                  <li class="list-group-item border-0"><i class="bi bi-check"></i>Massa ultricies mi quis hendrerit</li>
+                </ul>
+                <div class="card-body text-center">
+                  <button type="button" class="btn btn-outline-success">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-------------questions bölümü burada başlıyor---------->
+    <section class="questions">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="content px-xl-5">
+              <h3>Frequently Asked <strong>Questions</strong></h3>
+              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item border-0">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <span>1. </span>
+                    Non consectetur a erat nam at lectus urna duis? 
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body"> Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</div>
+                </div>
+              </div>
+              <div class="accordion-item border-0">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <span>2. </span>
+                    Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?  
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body"> Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <span>3. </span>
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? 
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body"> Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <span>4. </span>
+                    Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? 
+                  </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body"> Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <span>5. </span>
+                    Tempus quam pellentesque nec nam aliquam sem et tortor consequat? 
+                  </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body"> Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------------blog bölümü burada başlıyor----------------->
+    <section class="blog sections-bg">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="section-header">
+            <h2>Recent Blog Posts</h2>
+            <p>Consequatur libero assumenda est voluptatem est quidem illum et officia imilique qui vel architecto accusamus fugit aut qui distinctio</p>
+          </div>
+        </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-4 col-md-6">
+                <div class="card p-0">
+                  <div class="blog-card-image">
+                    <img src="img/blog-1.jpg" class="card-img-top img-fluid" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <span>Politics</span>
+                    <h2><a href="">Dolorum optio tempore voluptas dignissimos</a></h2>
+                    <div class="blog-card-bottom d-flex">
+                      <img src="img/blog-author.jpg" alt="">
+                      <div class="blog-card-bottom-content">
+                        <p class="author">Maria Doe</p>
+                        <p class="date">Jan 1, 2022</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-6">
+                <div class="card p-0">
+                  <div class="blog-card-image">
+                    <img src="img/blog-2.jpg" class="card-img-top img-fluid" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <span>Sports</span>
+                    <h2><a href="">Nisi magni odit consequatur autem nulla dolorem</a></h2>
+                    <div class="blog-card-bottom d-flex">
+                      <img src="img/blog-author-2.jpg" alt="">
+                      <div class="blog-card-bottom-content">
+                        <p class="author">Allisa Mayer</p>
+                        <p class="date">Jun 5, 2022</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-6">
+                <div class="card p-0">
+                  <div class="blog-card-image">
+                    <img src="img/blog-3.jpg" class="card-img-top img-fluid" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <span>Entertainment</span>
+                    <h2><a href="">Possimus soluta ut id suscipit ea ut in quo quia et soluta</a></h2>
+                    <div class="blog-card-bottom d-flex">
+                      <img src="img/blog-author-3.jpg" alt="">
+                      <div class="blog-card-bottom-content">
+                        <p class="author">Mark Dower</p>
+                        <p class="date">Jun 22, 2022</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!----------------------------contact bölümü burada başlıyor--------------------->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="section-header">
+            <h2>Contact</h2>
+            <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 p-0">
+            <div class="card">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item border-0 d-flex align-items-center">
+                  <div class="contact-card-icon d-flex justify-content-center align-items-center">
+                    <i class="bi bi-geo-alt"></i>
+                  </div>
+                  <div class="contact-card-text mx-3">
+                    <h4>Location:</h4>
+                    <p>A108 Adam Street, New York, NY 535022</p>
+                  </div>
+                </li>
+                <li class="list-group-item border-0 d-flex align-items-center">
+                  <div class="contact-card-icon d-flex justify-content-center align-items-center">
+                    <i class="bi bi-geo-alt"></i>
+                  </div>
+                  <div class="contact-card-text mx-3">
+                    <h4>Email:</h4>
+                    <p>info@example.com</p>
+                  </div>
+                </li>
+                <li class="list-group-item border-0 d-flex align-items-center">
+                  <div class="contact-card-icon d-flex justify-content-center align-items-center">
+                    <i class="bi bi-geo-alt"></i>
+                  </div>
+                  <div class="contact-card-text mx-3">
+                    <h4>Call:</h4>
+                    <p>+1 5589 55488 55</p>
+                  </div>
+                </li>
+                <li class="list-group-item d-flex align-items-center">
+                  <div class="contact-card-icon d-flex justify-content-center align-items-center">
+                    <i class="bi bi-geo-alt"></i>
+                  </div>
+                  <div class="contact-card-text mx-3">
+                    <h4>Open Hours:</h4>
+                    <p>Mon-Sat: 11AM - 23PM</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-8 p-0">
+            <form>
+              <div class="row">
+                <div class=" col-12 col-md-6 mb-4">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Your Name" aria-label="yourname" aria-describedby="addon-wrapping">
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 mb-4">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Your Name" aria-label="yourname" aria-describedby="addon-wrapping">
+                  </div>
+                </div>
+                <div class="col-12 mb-4">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Subject" aria-label="yourname" aria-describedby="addon-wrapping">
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <div class="col-12">
+                    <textarea placeholder="Message" class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+                  </div>
+                </div>
+                <div class="col-3 m-auto mb-5">
+                  <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------------------------footer burada başlıyor-------------------------->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-12">
+            <a href="">
+              <h3>Impact</h3>
+            </a>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <div class="footer-socials d-flex">
+              <a href="#" class="twitter">
+                <i class="bi bi-twitter"></i>
+              </a>
+              <a href="#" class="facebook">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="#" class="instagram">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="#" class="linkedin">
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6">
+            <h4>Useful Links</h4>
+            <div class="footer-card">
+              <ul class="p-0">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Terms of service</a></li>
+                <li><a href="#">Privacy policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6">
+            <h4>Our Services</h4>
+            <div class="footer-card">
+              <ul class="p-0">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Terms of service</a></li>
+                <li><a href="#">Privacy policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12">
+            <h4>Contact Us</h4>
+            <div class="footer-card">
+              <p> A108 Adam Street <br> New York, NY 535022<br> United States <br><br> <strong>Phone:</strong> +1 5589 55488 55<br> <strong>Email:</strong> info@example.com<br></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-4">
+        <div class="row">
+          <div class="copyright text-center"> © Copyright <strong><span>Impact</span></strong>. All Rights Reserved</div>
+          <div class="credits text-center"> Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a></div>
+        </div>
+      </div>
+    </footer>
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center active">
+      <i class="bi bi-arrow-up-short"></i>
+    </a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

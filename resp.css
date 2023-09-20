@@ -1,0 +1,17 @@
+@media screen and (max-width:1200px) {
+    .hero .icon-boxes{
+        padding: 60px 0;
+    }
+    .hero .icon-boxes::before{
+        background-color: #008374 !important;
+        content: " ";
+    }
+    .navbar-nav .nav-item:hover > a::before{
+        display: none;
+    }
+}
+@media screen and (max-width:992px){
+    .pricing .business{
+        transform: scale(1);
+    }
+}
